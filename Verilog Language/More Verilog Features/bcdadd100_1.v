@@ -4,7 +4,7 @@ module top_module(
     output cout,
     output [399:0] sum );
 
-    wire [100:0]c;
+    wire [399:0]c;
 
     bcd_fadd fadd1(a[3:0],b[3:0],cin,c[0],sum[3:0]);
 
