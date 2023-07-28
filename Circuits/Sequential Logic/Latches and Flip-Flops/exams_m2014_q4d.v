@@ -3,7 +3,7 @@ module top_module (
     input in, 
     output out);
 
-    wire d,q;
+    reg d,q;//wire
 
     always@(posedge clk) begin
         q <= d;
