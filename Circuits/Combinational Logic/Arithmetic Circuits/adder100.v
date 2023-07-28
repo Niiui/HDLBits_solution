@@ -4,6 +4,7 @@ module top_module(
     output cout,
     output [99:0] sum );
 
+    //assign {cout, sum} = a + b + cin;
     wire [99:0]c;
 
     fadd f1(a[0],b[0],cin,c[0],sum[0]);
